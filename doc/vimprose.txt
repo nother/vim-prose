@@ -1,0 +1,28 @@
+*vimprose.txt* Writing prose in vim made a little easier.
+
+Author: nother <https://github.com/nother>
+License: Vim License (see |license|)
+
+ABOUT                                           *vimprose*
+
+VimProse is a tiny plugin that configures a buffer to make working
+with prose easier. It visually wraps long lines, enables navigating
+within a wrapped line using the standard movement keys, sets undo
+points after each sentence, turns on spell check, and does a couple
+other things. The (short) source code is commented, so take a look.
+
+VimProse is hosted on GitHub:
+
+    https://github.com/nother/vim-prose
+
+COMMANDS                                        *vimprose-commands*
+
+There is a single commmand which operates on the current buffer.
+
+:VimProseEnable         Enable VimProse.
+
+MAPPINGS                                        *vimprose-mappings*
+
+There is a single default mapping.
+
+<Leader>p               Enable VimProse.
